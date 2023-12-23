@@ -1,0 +1,79 @@
+/*
+Design by http://www.bluewebtemplates.com
+Released for free under a Creative Commons Attribution 3.0 License
+*/
+@charset "utf-8";
+body { margin:0; padding:0; width:100%; color:#5f5f5f; font:normal 12px/1.8em Arial, Helvetica, sans-serif; background:url(images/bg.gif);}
+html, .main { padding:0; margin:0; background-color:#fff;}
+.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+h1 { margin:0; padding:24px 0 40px 40px; color:#249cd3; font:bold 40px/1.2em Arial, Helvetica, sans-serif; text-transform:uppercase;}
+h1 a, h1 a:hover { color:#249cd3; text-decoration:none;}
+h1 span { margin:0 4px; padding:26px 6px; color:#fff; background-color:#249cd3;}
+h1 small { padding-left:8px; font:normal 13px/1.2em Arial, Helvetica, sans-serif;}
+h2 { font:bold 24px Arial, Helvetica, sans-serif; color:#323a3f; padding:8px 0; margin:8px 0;}
+p { margin:8px 0; padding:0 0 8px 0; font:normal 12px/1.8em Arial, Helvetica, sans-serif;}
+a { color:#249cd3; text-decoration:underline;}
+img.imgwh { margin:6px 16px 0 0; padding:3px; float:left; border:1px solid #dedede;}
+
+.header, .hbg, .content, .fbg, .footer, form, ol, ol li, ul { margin:0; padding:0;}
+.header_resize, .hbg_resize, .content_resize, .fbg_resize, .footer_resize { margin:0 auto; padding:0 40px; width:890px;}
+.content, .fbg { padding:16px 40px;}
+
+/* header */
+.header { background:#ebebeb url(images/header_bg.gif) repeat-x top;}
+.header .logo { width:auto; float:left;}
+.header img.hbgimg { padding:22px 28px 0 0; float:right;}
+.header h2 { margin:0; padding:8px 0 0 0; font:bold 24px/1.5em Arial, Helvetica, sans-serif; color:#fff;}
+
+/* menu */
+.nav_menu { padding-top:84px; float:right; width:auto;}
+.nav_menu ul { list-style:none;}
+.nav_menu ul li { margin:0; padding:0 2px; float:left;}
+.nav_menu ul li a { display:block; margin:0; padding:0 24px 0 8px; color:#737373; text-decoration:none; text-transform:uppercase; border-left:1px solid #737373;}
+.nav_menu ul li a:hover, .nav_menu ul li.active a { color:#249cd3; border-left:1px solid #249cd3;}
+
+/* hbg */
+.hbg { background:url(images/hbg_bg.gif) repeat-x top;}
+.hbg_resize { height:357px; overflow:hidden; background:url(images/hbg_r_bg.jpg) no-repeat center top;}
+.hbg img.hbgimg { margin-right:34px; padding:45px 0 0 5px; float:left;}
+.hbg h2 { margin:0; padding:54px 0 0; font:bold 36px/1.5em Arial, Helvetica, sans-serif;}
+
+/* content */
+.content .mainbar { margin:0; padding:0; float:left; width:630px;}
+.content .mainbar .article, .content .sidebar .gadget { margin:0; padding:0 0 16px 0;}
+.content .mainbar .article img { border:1px solid #dedede; padding:3px;}
+.content .mainbar .article img.ilf { float:left; margin:0 16px 8px 0;}
+.content .sidebar { margin:0; padding:0; float:right; width:236px;}
+ul.sb_menu, ul.ex_menu { margin:0; padding:0; list-style:none; color:#959595;}
+ul.sb_menu li, ul.ex_menu li { margin:2px 0; padding:3px 0;}
+ul.sb_menu li a, ul.ex_menu li a { color:#5f5f5f; text-decoration:none;}
+ul.sb_menu li a:hover, ul.ex_menu li a:hover { color:#249cd3; font-weight:bold;}
+
+/* subpages */
+.content .mainbar .comment { margin:0; padding:16px 0 0 0;}
+.content .mainbar .comment img.userpic { border:1px solid #dedede; margin:10px 16px 0 0; padding:0; float:left;}
+
+/* fbg */
+.fbg { border-top:1px solid #ededed; border-bottom:1px solid #ededed;}
+.fbg img { padding:3px; border:1px solid #dedede;}
+.fbg .col { margin:0; float:left;}
+.fbg .c1 { padding:0 16px 0 0; width:250px;}
+.fbg .c2 { padding:0 16px; width:290px;}
+.fbg .c3 { padding:0 0 0 16px; width:280px;}
+.fbg .c1 img { margin:8px; float:left;}
+
+/* footer */
+.footer { padding-top:16px;}
+.footer p.lf { margin:0; padding:0; float:right; width:auto;}
+ul.fmenu { margin:0; padding-bottom:12px; list-style:none; float:left; width:auto;}
+ul.fmenu li { margin:0; padding:0 2px; float:left;}
+ul.fmenu li a { display:block; padding:4px 8px; color:#5f5f5f; text-decoration:none; font-weight:bold;}
+ul.fmenu li a:hover, ul.fmenu li.active a { color:#249cd3;}
+
+/* form */
+ol { list-style:none;}
+ol li { display:block; clear:both;}
+ol li label { display:block; margin:0; padding:16px 0 0 0;}
+ol li input.text { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:5px 2px; height:16px; background:#fff;}
+ol li textarea { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:2px; background:#fff;}
+ol li .send { margin:16px 0 0 0;}
