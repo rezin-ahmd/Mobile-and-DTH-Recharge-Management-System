@@ -1,1 +1,1 @@
-# Mobile-and-DTH-Recharge-Management-System
+The project Online Mobile and DTH Recharge Management system is for the recharge of many operators under a single roof. The proposed project is designed using PHP and the backend is My SQL. The implementation of project serves both mobile customers and service providers. The objectives of the project are to develop a system that keeps record of all recharges, sales & purchases, plans, companies, distributors, etc and to help user for better management of recharges.
